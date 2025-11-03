@@ -15,9 +15,9 @@ const printEveryWord = (words) => {
 // printEveryWord(sampleWords);
 // Problem 2
 const getStringLengths = (strings) => {
-
+  return strings.map(str => str.length)
 };
-
+console.log(getStringLengths(sampleWords));
 // Problem 3
 const sortWordsZtoA = (words) => {
 
