@@ -37,9 +37,15 @@ const getEvenNumbers = (nums) => {
 // console.log(getEvenNumbers(sampleNumbers));
 // Problem 5
 const getLargestNumber = (numbers) => {
-
+  let max = -Infinity
+  numbers.forEach(num => {
+    if (num > max) {
+      max = num
+    }
+  })
+  return max
 };
-
+// console.log(getLargestNumber(sampleNumbers));
 /* -------------------------------------------------- */
 /* --------------OBJECT ARRAY PROBLEMS--------------- */
 /* -------------------------------------------------- */
