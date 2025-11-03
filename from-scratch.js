@@ -17,12 +17,13 @@ const printEveryWord = (words) => {
 const getStringLengths = (strings) => {
   return strings.map(str => str.length)
 };
-console.log(getStringLengths(sampleWords));
+// console.log(getStringLengths(sampleWords));
 // Problem 3
 const sortWordsZtoA = (words) => {
-
+  words.sort((a, b) => a - b).reverse()
 };
-
+// sortWordsZtoA(sampleWords);
+// console.log(sampleWords);
 /* -------------------------------------------- */
 /* --------------NUMBER PROBLEMS--------------- */
 /* -------------------------------------------- */
